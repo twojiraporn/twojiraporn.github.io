@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>my profile</title>
+
+    <style>
+      .name {
+        background-color: #009bb3;
+        color: white;
+        padding: 10px;
+        margin-left: 1px;
+        top: 80%;
+        left: 45%;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      body {
+        font-family: "Lato", sans-serif;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #e6e6ea;
+        overflow-x: hidden;
+        padding: 20px;
+      }
+
+      .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+      }
+
+      .main {
+        margin-left: 200px;
+        font-size: 20px;
+        padding-left: 100px;
+        padding-right: 50px;
+      }
+
+      .info {
+        margin-left: 20px;
+      }
+
+      .gmail {
+        margin-left: 10px;
+      }
+
+      .button {
+        background-color: #f4511e;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        opacity: 1;
+      }
+
+      div.polaroid {
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="sidenav">
+      <div class="polaroid">
+        <img src="./image/profilePic.JPG" style="width: 100%;" />
+      </div>
+      <div class="name"><b>Jiraporn Kowootthitam</b></div>
+      <br />
+      <br />
+      <div class="info">
+        1999s
+        <br />Computer Science<br />Kasetsart University
+        <br />
+        <br />
+        <br />
+        <br /><img src="./image/skill.png" width="20px" /> programming
+        languages<br />
+        <ul>
+          <li>Java</li>
+          <li>Python</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>PHP</li>
+          <li>SQL</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <br />
+        <br />
+        <br />jiraporn.kow@ku.th
+      </div>
+    </div>
+
+    <div class="main">
+      <h1>About me &#128513;</h1>
+      Download
+      <span style="padding-left: 10px;">
+        <a href="./file/transcript.pdf" download>
+          <button class="button">Transcript</button>
+        </a>
+      </span>
+    </div>
+  </body>
+</html>
